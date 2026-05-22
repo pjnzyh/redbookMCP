@@ -4,9 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "dev": "slidev",
     "build": "slidev build --base /rebbookMCP/",
-    "dev": "slidev --open",
-    "export": "slidev export"
+    "preview": "slidev preview"
   },
   "dependencies": {
     "@slidev/cli": "^52.14.2",
